@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/Index.css">
+    <link rel="icon" href="images/logo-icon.png" type="image/x-icon">
+    <title>Coffee Shop</title>
+</head>
+<body>
+    <main>
+        <header class="fixed-top">
+            <div class="position-fixed w-100">
+                <nav class="navbar mx-auto navbar-expand-lg navbar-dark text-light  w-100 animate__animated animate__fadeInDown">
+                    <div class="container d-flex justify-content-between align-items-center mx-a">
+                        <a class="navbar-brand" href="#" title="CoffeeKing"> 
+                            <img src="images/logo_white-7.png" alt="" height="50px">
+                        </a>
+                        <div class="collapse navbar-collapse order-4 order-lg-2 text-light" id="navbarScroll">
+                            <ul class="navbar-nav ms-auto my-2 my-lg-0 text-center gap-3 fs-5">
+                                <li class="nav-item my-2">
+                                    <a class="Active" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item my-2"> <a href="#about">About</a> </li>
+                                <li class="nav-item my-2"> <a href="#menu">Menu</a> </li>
+                                <li class="nav-item my-2"> <a href="#Testimonials">Testimonials</a> </li>
+                                <li class="nav-item my-2"> <a href="#gallery">Gallery</a> </li>
+                                <li class="nav-item my-2"> <a href="#contact">Contact</a> </li>
+                            </ul>
+                        </div>
+                        <div class="d-flex gap-3 align-items-center order-lg-2">
+                            <div class="hamburger navbar-toggler" data-bs-toggle="collapse"
+                                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Home Section -->
+        <section class="home animate__animated animate__fadeIn" id="home">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <!-- Home Text -->
+                    <div class="col-md-6 homeDetails">
+                        <div class="homeDetails">
+                            <h2 class="title animate__animated animate__fadeInLeft">Best Coffee</h2>
+                            <h3 class="subtitle animate__animated animate__fadeInLeft">Make your day great with our special coffee!</h3>
+                            <p class="description animate__animated animate__fadeInUp">Welcome to our coffee paradise...</p>
+                            <div class="buttons">
+                                <a href="#menu" class="me-3 btn btn-warning rounded-pill animate__animated animate__fadeInUp">Our Menu</a>
+                                <a href="#contact" class="btn btn-outline-warning rounded-pill contact-us animate__animated animate__fadeInUp">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Home Image -->
+                    <div class="col-md-6 homeImages">
+                        <div class="homeImages w-100 d-block animate__animated animate__zoomIn">
+                            <img src="images/coffee-hero-section.png" class="w-100 img-fluid d-block" alt="Coffee Hero">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Us Section -->
+        <section class="about py-5 animate__animated animate__fadeInUp" id="about">
+            <div class="container py-5">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <!-- About Image -->
+                    <div class="col-md-6">
+                        <div class="aboutImage text-center w-100 animate__animated animate__fadeInLeft">
+                            <img src="images/about-image.jpg" alt="aboutImage">
+                        </div>
+                    </div>
+                    <!-- About Text -->
+                    <div class="col-md-6">
+                        <div class="about-details text-center animate__animated animate__fadeInRight">
+                            <h2 class="title text-uppercase pb-3 mt-5 my-2">About Us</h2>
+                            <p class="text mt-4">At Coffee House in Berndorf, Germany, we pride ourselves on being a
+                                go-to
+                                destination for coffee lovers and conversation seekers alike...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Menu Section -->
+        <section id="menu" class="menu mt-5 pt-5 text-center">
+            <div class="container mx-auto">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="menu-title position-relative text-center animate__animated animate__fadeInDown">
+                            <h3 class="text-white fs-1 ">Our Menu</h3>
+                        </div>
+                        <button class="btn btn-outline-warning showMenu rounded-pill mt-5">Show All</button>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-md-4 text-center  animate__animated animate__fadeInDown">
+                        <div class="menu p-3 m-1 mb-5 text-white">
+                            <div class="menuImage mb-3">
+                                <img src="images/hot-beverages.png" class="w-100 img-fluid d-block" alt="">
+                            </div>
+                            <div class="menu-content">
+                                <h2 class="s-title">Hot Beverages</h2>
+                                <p class="s-description text-center">
+                                    Wide range of Steaming hot coffee to make you fresh and light.
+                                </p>
+                                <p class="price">200$</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center  animate__animated animate__fadeInDown">
+                        <div class="menu  p-3 m-1 mb-5 text-white">
+                            <div class="menuImage mb-3">
+                                <img src="images/cold-beverages.png" class="w-100 img-fluid d-block" alt="">
+                            </div>
+                            <div class="menu-content">
+                                <h2 class="s-title">Cold Beverages</h2>
+                                <p class="s-description text-center">
+                                    Creamy and frothy cold coffee to make you cool.
+                                </p>
+                                <p class="price">250$</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center  animate__animated animate__fadeInDown">
+                        <div class="menu  p-3 m-1 mb-5 text-white">
+                            <div class="menuImage mb-3">
+                                <img src="images/refreshment.png" class="w-100 img-fluid d-block" alt="">
+                            </div>
+                            <div class="menu-content">
+                                <h2 class="s-title">Refreshment</h2>
+                                <p class="s-description text-center">
+                                    Fruit and icy refreshing drink to make feel refresh.
+                                </p>
+                                <p class="price">150$</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center animate__animated  animate__fadeInUp">
+                        <div class="menu  p-3 m-1 mb-5 text-white">
+                            <div class="menuImage mb-3">
+                                <img src="images/special-combo.png" class="w-100 img-fluid d-block" alt="">
+                            </div>
+                            <div class="menu-content">
+                                <h2 class="s-title">Special Combo</h2>
+                                <p class="s-description text-center">
+                                    Your favorite eating and drinking combations.
+                                </p>
+                                <p class="price">300$</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center animate__animated  animate__fadeInUp">
+                        <div class="menu  p-3 m-1 mb-5 text-white">
+                            <div class="menuImage mb-3">
+                                <img src="images/desserts.png" class="w-100 img-fluid d-block" alt="">
+                            </div>
+                            <div class="menu-content">
+                                <h2 class="s-title">Desserts</h2>
+                                <p class="s-description text-center">
+                                    Satiate your palate and take you on a culinary treat.
+                                </p>
+                                <p class="price">280$</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center animate__animated  animate__fadeInUp">
+                        <div class="menu  p-3 m-1 mb-5 text-white">
+                            <div class="menuImage mb-3">
+                                <img src="images/burger-frenchfries.png" class="w-100 img-fluid d-block" alt="">
+                            </div>
+                            <div class="menu-content">
+                                <h2 class="s-title">Burger & French Fries</h2>
+                                <p class="s-description text-center">
+                                    Quick bites to satisfy your small size hunger.
+                                </p>
+                                <p class="price">230$</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section -->
+        <section class="Testimonials my-5 py-5" id="Testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="Testimonials-title position-relative text-center animate__animated animate__fadeInDown">
+                            <h3 class="fs-1 ">Our Testimonials</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner text-center mb-5 pb-5">
+                            <div class="carousel-item animate__animated animate__fadeIn active">
+                                <img src="images/user-1.jpg" class="rounded-circle w-25 mb-2" alt="...">
+                                <div class="inner-content">
+                                    <span>Xavi Alonso</span>
+                                    <p>Curabitur arcu erat, accumsan id imperdiet et...</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item animate__animated animate__fadeIn  ">
+                                <img src="images/user-2.jpg" class="rounded-circle  w-25 mb-2 " alt="...">
+                                <div class="inner-content">
+                                    <span>Marta Socrate</span>
+                                    <p>
+                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet,
+                                        consectetur <br> adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item animate__animated animate__fadeIn  ">
+                                <img src="images/user-3.jpg" class="rounded-circle  w-25 mb-2 " alt="...">
+                                <div class="inner-content">
+                                    <span>Marta Socrate</span>
+                                    <p>
+                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet,
+                                        consectetur <br> adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item  animate__animated animate__fadeIn">
+                                <img src="images/user-4.jpg" class="rounded-circle  w-25 mb-2 " alt="...">
+                                <div class="inner-content">
+                                    <span>Marta Socrate</span>
+                                    <p>
+                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet,
+                                        consectetur <br> adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item  animate__animated animate__fadeIn">
+                                <img src="images/user-5.jpg" class="rounded-circle  w-25 mb-2 " alt="...">
+                                <div class="inner-content">
+                                    <span>Marta Socrate</span>
+                                    <p>
+                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet,
+                                        consectetur <br> adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item  animate__animated animate__fadeIn">
+                                <img src="images/user-1.jpg" class="rounded-circle  w-25 mb-2 " alt="...">
+                                <div class="inner-content">
+                                    <span>Marta Socrate</span>
+                                    <p>
+                                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum
+                                        dolor
+                                        sit
+                                        amet,
+                                        consectetur <br> adipiscing elit.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-indicators ">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-label="Slide 1" aria-current="true">
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2" class="">
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3" class="">
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4" class="">
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 5" class="">
+                            </button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                                aria-label="Slide 6" class="">
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery Section -->
+        <section class="gallery my-5 py-5" id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="Testimonials-title position-relative text-center animate__animated animate__fadeIn">
+                            <h3 class="fs-1 text-white">Our Gallery</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4 p-3 animate__animated animate__zoomIn">
+                        <img src="images/gallery-1.jpg" class="w-100 d-block img-fluid  rounded-2" alt="">
+                    </div>
+                    <div class="col-md-4 p-3 animate__animated animate__zoomIn">
+                        <img src="images/gallery-2.jpg" class="w-100 d-block img-fluid  rounded-2" alt="">
+                    </div>
+                    <div class="col-md-4 p-3 animate__animated animate__zoomIn">
+                        <img src="images/gallery-3.jpg" class="w-100 d-block img-fluid  rounded-2" alt="">
+                    </div>
+                    <div class="col-md-4 p-3 animate__animated animate__zoomIn">
+                        <img src="images/gallery-4.jpg" class="w-100 d-block img-fluid  rounded-2" alt="">
+                    </div>
+                    <div class="col-md-4 p-3 animate__animated animate__zoomIn">
+                        <img src="images/gallery-5.jpg" class="w-100 d-block img-fluid  rounded-2" alt="">
+                    </div>
+                    <div class="col-md-4 p-3 animate__animated animate__zoomIn">
+                        <img src="images/gallery-6.jpg" class="w-100 d-block img-fluid  rounded-2" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact  my-5 py-5">
+            <div class="container mb-5  mx-auto ">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="Testimonials-title position-relative text-center animate__animated animate__fadeInDown">
+                            <h3 class="fs-1">Contact Us</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 pb-5 mb-5Media">
+                    <div class="col-md-4 animate__animated animate__fadeInDown">
+                        <div class="item text-center">
+                            <div class="icon-circle">
+                                <span class="icon"><i class="fa fa-location-arrow fs-3" aria-hidden="true"></i></span>
+                            </div>
+                            <h6>Address</h6>
+                            <p>6834 Hollywood Blvd - Los Angeles CA</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 animate__animated animate__fadeInDown">
+                        <div class="item text-center">
+                            <div class="icon-circle">
+                                <span class="icon"><i class="fa fa-envelope fs-3" aria-hidden="true"></i></span>
+                            </div>
+                            <h6>Email</h6>
+                            <p>Support@website.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 animate__animated animate__fadeInDown">
+                        <div class="item text-center">
+                            <div class="icon-circle">
+                                <span class="icon"><i class="fa fa-phone fs-3" aria-hidden="true"></i></span>
+
+                            </div>
+                            <h6>Phone</h6>
+                            <p>+20 *** **** ****</p>
+                        </div>
+                    </div>
+
+                    <form class="mx-auto">
+                        <div class="row">
+                            <div class="col-md-6 form-group animate__animated animate__fadeInLeft">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                    required="">
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0 animate__animated animate__fadeInRight">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your Email" required="">
+                            </div>
+                        </div>
+                        <div class="form-group mt-3 animate__animated animate__fadeInUp">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                required=""></textarea>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 input-test animate__animated animate__fadeInLeft">
+                                <a href="#" class="btn  Submit p-2 px-4 text-center rounded mt-3">Submit</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="copyright py-4 animate__animated animate__fadeInDown py-3">
+            <div class="container ">
+                <div class="row text-center d-flex justify-content-center align-items-center">
+                    <a href="#home">
+                    <img src="images/logo_white-7.png"  alt="">
+
+                    </a>
+                    <span>Copy Right 2024 © By <b>Boula William</b> All Rights Reserved</span>
+                </div>
+            </div>
+        </footer>
+        <!-- Scroll -->
+        <div class="scrollTop animate__animated animate__fadeInUp " id="scrollToTopBtn">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+    </main>
+</body>
+<script src="JS/jquery-3.6.1.min.js"></script>
+<script src="JS/bootstrap.bundle.min.js"></script>
+<script src="JS/index.js"></script>
+</html>
